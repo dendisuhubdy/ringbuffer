@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//ringbuffer/ring_buffer.h
+array
+-
+utils.h
+../ringbuffer/utils.h
+
+../ringbuffer/utils.h
+
+/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/test/ring_buffer_test.cc
+boost/test/unit_test.hpp
+-
+ringbuffer/ring_buffer.h
+-
+

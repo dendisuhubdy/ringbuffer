@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//ringbuffer/sequence.h
+atomic
+-
+ringbuffer/utils.h
+../ringbuffer/ringbuffer/utils.h
+
+..//ringbuffer/sequence_barrier.h
+memory
+-
+vector
+-
+ringbuffer/wait_strategy.h
+../ringbuffer/ringbuffer/wait_strategy.h
+ringbuffer/sequence.h
+../ringbuffer/ringbuffer/sequence.h
+
+..//ringbuffer/utils.h
+
+..//ringbuffer/wait_strategy.h
+sys/time.h
+-
+chrono
+-
+thread
+-
+condition_variable
+-
+vector
+-
+ringbuffer/sequence.h
+../ringbuffer/ringbuffer/sequence.h
+
+/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/test/sequence_barrier_test.cc
+boost/test/unit_test.hpp
+-
+ringbuffer/sequence_barrier.h
+-
+

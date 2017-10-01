@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//ringbuffer/claim_strategy.h
+thread
+-
+ringbuffer/sequence.h
+../ringbuffer/ringbuffer/sequence.h
+ringbuffer/ring_buffer.h
+../ringbuffer/ringbuffer/ring_buffer.h
+
+..//ringbuffer/ring_buffer.h
+array
+-
+utils.h
+../ringbuffer/utils.h
+
+..//ringbuffer/sequence.h
+atomic
+-
+ringbuffer/utils.h
+../ringbuffer/ringbuffer/utils.h
+
+..//ringbuffer/utils.h
+
+../ringbuffer/utils.h
+
+/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/test/claim_strategy_test.cc
+boost/test/unit_test.hpp
+-
+ringbuffer/claim_strategy.h
+-
+

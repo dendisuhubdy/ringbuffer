@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//ringbuffer/sequence.h
+atomic
+-
+ringbuffer/utils.h
+../ringbuffer/ringbuffer/utils.h
+
+..//ringbuffer/utils.h
+
+/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/test/sequence_test.cc
+atomic
+-
+iostream
+-
+boost/test/unit_test.hpp
+-
+ringbuffer/sequence.h
+-
+

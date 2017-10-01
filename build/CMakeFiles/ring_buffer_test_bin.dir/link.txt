@@ -1,0 +1,1 @@
+/u/suhubdyd/.local/bin/clang++-5.0  -O3 -DNDEBUG  -rdynamic CMakeFiles/ring_buffer_test_bin.dir/test/ring_buffer_test.cc.o  -o ring_buffer_test_bin -lboost_unit_test_framework 

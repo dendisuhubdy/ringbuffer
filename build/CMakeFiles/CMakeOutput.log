@@ -1,0 +1,967 @@
+The system is: Linux - 3.16.0-4-amd64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /u/suhubdyd/.local/bin/clang++-5.0 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/3.9.20170819-gbb364/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29bff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29bff.dir/build.make CMakeFiles/cmTC_29bff.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_29bff.dir/testCXXCompiler.cxx.o
+/u/suhubdyd/.local/bin/clang++-5.0     -o CMakeFiles/cmTC_29bff.dir/testCXXCompiler.cxx.o -c /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_29bff
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29bff.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0       -rdynamic CMakeFiles/cmTC_29bff.dir/testCXXCompiler.cxx.o  -o cmTC_29bff 
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_535cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_535cf.dir/build.make CMakeFiles/cmTC_535cf.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o
+/u/suhubdyd/.local/bin/clang++-5.0     -o CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o -c /u/suhubdyd/.local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_535cf
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_535cf.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0      -v -rdynamic CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_535cf 
+clang version 5.0.1 (branches/release_50 314068)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /u/suhubdyd/.local/bin
+Found candidate GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8.4
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.4
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.2
+Selected GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/usr/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_535cf /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64 -L/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/u/suhubdyd/.local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L. -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/usr/local/cuda/lib64/ -L/usr/local/cuda-8.0/lib64/ -L/usr/local/cuda-7.5/lib64/ -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_535cf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_535cf.dir/build.make CMakeFiles/cmTC_535cf.dir/build]
+  ignore line: [make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/u/suhubdyd/.local/bin/clang++-5.0     -o CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o -c /u/suhubdyd/.local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_535cf]
+  ignore line: [/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_535cf.dir/link.txt --verbose=1]
+  ignore line: [/u/suhubdyd/.local/bin/clang++-5.0      -v -rdynamic CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_535cf ]
+  ignore line: [clang version 5.0.1 (branches/release_50 314068)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /u/suhubdyd/.local/bin]
+  ignore line: [Found candidate GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.2]
+  ignore line: [Selected GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
+  link line: [ "/usr/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_535cf /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64 -L/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/u/suhubdyd/.local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L. -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/usr/local/cuda/lib64/ -L/usr/local/cuda-8.0/lib64/ -L/usr/local/cuda-7.5/lib64/ -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_535cf] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o] ==> ignore
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu]
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64]
+    arg [-L/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu] ==> dir [/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu]
+    arg [-L/u/suhubdyd/.local/bin/../lib64] ==> dir [/u/suhubdyd/.local/bin/../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..]
+    arg [-L/u/suhubdyd/.local/bin/../lib] ==> dir [/u/suhubdyd/.local/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_535cf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L.] ==> ignore
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/u/suhubdyd/.local/lib64] ==> dir [/u/suhubdyd/.local/lib64]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/u/suhubdyd/.local/lib64] ==> dir [/u/suhubdyd/.local/lib64]
+    arg [-L/usr/local/cuda/lib64/] ==> dir [/usr/local/cuda/lib64/]
+    arg [-L/usr/local/cuda-8.0/lib64/] ==> dir [/usr/local/cuda-8.0/lib64/]
+    arg [-L/usr/local/cuda-7.5/lib64/] ==> dir [/usr/local/cuda-7.5/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/u/suhubdyd/.local/lib64] ==> dir [/u/suhubdyd/.local/lib64]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> [/u/suhubdyd/.local/lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu] ==> [/u/suhubdyd/.local/lib/x86_64-linux-gnu]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu] ==> [/u/suhubdyd/.local/lib/x86_64-linux-gnu]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/usr/local/cuda/lib64/] ==> [/usr/local/cuda/lib64]
+  collapse library dir [/usr/local/cuda-8.0/lib64/] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/usr/local/cuda-7.5/lib64/] ==> [/usr/local/cuda-7.5/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64] ==> [/u/suhubdyd/.local/lib64]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/u/suhubdyd/.local/lib/gcc/x86_64-pc-linux-gnu/7.2.0;/u/suhubdyd/.local/lib/x86_64-linux-gnu;/u/suhubdyd/.local/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/u/suhubdyd/.local/lib;/lib;/usr/lib;/usr/local/cuda-8.0/lib;/usr/local/cuda-8.0/lib64;/Tmp/lisa/os_v5/cudnn_v6;/Tmp/lisa/os_v5/nccl_8/lib;/Tmp/lisa/os_v5/lib;/Tmp/lisa/os_v5/lib64;/usr/local/lib;/usr/lib64/atlas;/Tmp/lisa/os_v5/lib32;/usr/local/cuda/lib64;/usr/local/cuda-7.5/lib64]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b603/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b603.dir/build.make CMakeFiles/cmTC_8b603.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b603.dir/feature_tests.cxx.o
+/u/suhubdyd/.local/bin/clang++-5.0    -std=c++1z -o CMakeFiles/cmTC_8b603.dir/feature_tests.cxx.o -c /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8b603
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b603.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0       -rdynamic CMakeFiles/cmTC_8b603.dir/feature_tests.cxx.o  -o cmTC_8b603 
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+The system is: Linux - 3.16.0-4-amd64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /u/suhubdyd/.local/bin/clang++-5.0 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/3.9.20170819-gbb364/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eef20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eef20.dir/build.make CMakeFiles/cmTC_eef20.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eef20.dir/testCXXCompiler.cxx.o
+/u/suhubdyd/.local/bin/clang++-5.0     -o CMakeFiles/cmTC_eef20.dir/testCXXCompiler.cxx.o -c /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_eef20
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eef20.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0       -rdynamic CMakeFiles/cmTC_eef20.dir/testCXXCompiler.cxx.o  -o cmTC_eef20 
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_957cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_957cd.dir/build.make CMakeFiles/cmTC_957cd.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o
+/u/suhubdyd/.local/bin/clang++-5.0     -o CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o -c /u/suhubdyd/.local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_957cd
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_957cd.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0      -v -rdynamic CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_957cd 
+clang version 5.0.1 (branches/release_50 314068)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /u/suhubdyd/.local/bin
+Found candidate GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8.4
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.4
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.2
+Selected GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/usr/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_957cd /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64 -L/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/u/suhubdyd/.local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L. -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/usr/local/cuda/lib64/ -L/usr/local/cuda-8.0/lib64/ -L/usr/local/cuda-7.5/lib64/ -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_957cd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_957cd.dir/build.make CMakeFiles/cmTC_957cd.dir/build]
+  ignore line: [make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/u/suhubdyd/.local/bin/clang++-5.0     -o CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o -c /u/suhubdyd/.local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_957cd]
+  ignore line: [/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_957cd.dir/link.txt --verbose=1]
+  ignore line: [/u/suhubdyd/.local/bin/clang++-5.0      -v -rdynamic CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_957cd ]
+  ignore line: [clang version 5.0.1 (branches/release_50 314068)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /u/suhubdyd/.local/bin]
+  ignore line: [Found candidate GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i586-linux-gnu/4.9.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.4]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.2]
+  ignore line: [Selected GCC installation: /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
+  link line: [ "/usr/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_957cd /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64 -L/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -L/u/suhubdyd/.local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L. -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/u/suhubdyd/.local/lib64/ -L/u/suhubdyd/.local/lib -L/Tmp/lisa/os_v5/cudnn_v6 -L/Tmp/lisa/os_v5/nccl_8/lib -L/usr/local/cuda-8.0/lib -L/usr/local/cuda-8.0/lib64 -L/Tmp/lisa/os_v5/lib -L/Tmp/lisa/os_v5/lib64 -L/usr/local/lib -L/usr/lib64/atlas -L/Tmp/lisa/os_v5/lib32 -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -L/usr/local/cuda/lib64/ -L/usr/local/cuda-8.0/lib64/ -L/usr/local/cuda-7.5/lib64/ -L/u/suhubdyd/.local/lib -L/u/suhubdyd/.local/lib64 -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_957cd] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbegin.o] ==> ignore
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu]
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64]
+    arg [-L/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu] ==> dir [/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu]
+    arg [-L/u/suhubdyd/.local/bin/../lib64] ==> dir [/u/suhubdyd/.local/bin/../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..]
+    arg [-L/u/suhubdyd/.local/bin/../lib] ==> dir [/u/suhubdyd/.local/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_957cd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L.] ==> ignore
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/u/suhubdyd/.local/lib64] ==> dir [/u/suhubdyd/.local/lib64]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/u/suhubdyd/.local/lib64/] ==> dir [/u/suhubdyd/.local/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/Tmp/lisa/os_v5/cudnn_v6] ==> dir [/Tmp/lisa/os_v5/cudnn_v6]
+    arg [-L/Tmp/lisa/os_v5/nccl_8/lib] ==> dir [/Tmp/lisa/os_v5/nccl_8/lib]
+    arg [-L/usr/local/cuda-8.0/lib] ==> dir [/usr/local/cuda-8.0/lib]
+    arg [-L/usr/local/cuda-8.0/lib64] ==> dir [/usr/local/cuda-8.0/lib64]
+    arg [-L/Tmp/lisa/os_v5/lib] ==> dir [/Tmp/lisa/os_v5/lib]
+    arg [-L/Tmp/lisa/os_v5/lib64] ==> dir [/Tmp/lisa/os_v5/lib64]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/lib64/atlas] ==> dir [/usr/lib64/atlas]
+    arg [-L/Tmp/lisa/os_v5/lib32] ==> dir [/Tmp/lisa/os_v5/lib32]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/u/suhubdyd/.local/lib64] ==> dir [/u/suhubdyd/.local/lib64]
+    arg [-L/usr/local/cuda/lib64/] ==> dir [/usr/local/cuda/lib64/]
+    arg [-L/usr/local/cuda-8.0/lib64/] ==> dir [/usr/local/cuda-8.0/lib64/]
+    arg [-L/usr/local/cuda-7.5/lib64/] ==> dir [/usr/local/cuda-7.5/lib64/]
+    arg [-L/u/suhubdyd/.local/lib] ==> dir [/u/suhubdyd/.local/lib]
+    arg [-L/u/suhubdyd/.local/lib64] ==> dir [/u/suhubdyd/.local/lib64]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0] ==> [/u/suhubdyd/.local/lib/gcc/x86_64-pc-linux-gnu/7.2.0]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../x86_64-linux-gnu] ==> [/u/suhubdyd/.local/lib/x86_64-linux-gnu]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/x86_64-linux-gnu] ==> [/u/suhubdyd/.local/lib/x86_64-linux-gnu]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../..] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/bin/../lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib64/] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/Tmp/lisa/os_v5/cudnn_v6] ==> [/Tmp/lisa/os_v5/cudnn_v6]
+  collapse library dir [/Tmp/lisa/os_v5/nccl_8/lib] ==> [/Tmp/lisa/os_v5/nccl_8/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib] ==> [/usr/local/cuda-8.0/lib]
+  collapse library dir [/usr/local/cuda-8.0/lib64] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/Tmp/lisa/os_v5/lib] ==> [/Tmp/lisa/os_v5/lib]
+  collapse library dir [/Tmp/lisa/os_v5/lib64] ==> [/Tmp/lisa/os_v5/lib64]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/lib64/atlas] ==> [/usr/lib64/atlas]
+  collapse library dir [/Tmp/lisa/os_v5/lib32] ==> [/Tmp/lisa/os_v5/lib32]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64] ==> [/u/suhubdyd/.local/lib64]
+  collapse library dir [/usr/local/cuda/lib64/] ==> [/usr/local/cuda/lib64]
+  collapse library dir [/usr/local/cuda-8.0/lib64/] ==> [/usr/local/cuda-8.0/lib64]
+  collapse library dir [/usr/local/cuda-7.5/lib64/] ==> [/usr/local/cuda-7.5/lib64]
+  collapse library dir [/u/suhubdyd/.local/lib] ==> [/u/suhubdyd/.local/lib]
+  collapse library dir [/u/suhubdyd/.local/lib64] ==> [/u/suhubdyd/.local/lib64]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/u/suhubdyd/.local/lib/gcc/x86_64-pc-linux-gnu/7.2.0;/u/suhubdyd/.local/lib/x86_64-linux-gnu;/u/suhubdyd/.local/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/u/suhubdyd/.local/lib;/lib;/usr/lib;/usr/local/cuda-8.0/lib;/usr/local/cuda-8.0/lib64;/Tmp/lisa/os_v5/cudnn_v6;/Tmp/lisa/os_v5/nccl_8/lib;/Tmp/lisa/os_v5/lib;/Tmp/lisa/os_v5/lib64;/usr/local/lib;/usr/lib64/atlas;/Tmp/lisa/os_v5/lib32;/usr/local/cuda/lib64;/usr/local/cuda-7.5/lib64]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc403/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc403.dir/build.make CMakeFiles/cmTC_fc403.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc403.dir/feature_tests.cxx.o
+/u/suhubdyd/.local/bin/clang++-5.0    -std=c++1z -o CMakeFiles/cmTC_fc403.dir/feature_tests.cxx.o -c /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fc403
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc403.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0       -rdynamic CMakeFiles/cmTC_fc403.dir/feature_tests.cxx.o  -o cmTC_fc403 
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8851/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8851.dir/build.make CMakeFiles/cmTC_c8851.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8851.dir/feature_tests.cxx.o
+/u/suhubdyd/.local/bin/clang++-5.0    -std=c++14 -o CMakeFiles/cmTC_c8851.dir/feature_tests.cxx.o -c /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c8851
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8851.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0       -rdynamic CMakeFiles/cmTC_c8851.dir/feature_tests.cxx.o  -o cmTC_c8851 
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19417/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19417.dir/build.make CMakeFiles/cmTC_19417.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19417.dir/feature_tests.cxx.o
+/u/suhubdyd/.local/bin/clang++-5.0    -std=c++11 -o CMakeFiles/cmTC_19417.dir/feature_tests.cxx.o -c /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_19417
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19417.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0       -rdynamic CMakeFiles/cmTC_19417.dir/feature_tests.cxx.o  -o cmTC_19417 
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51490/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51490.dir/build.make CMakeFiles/cmTC_51490.dir/build
+make[1]: Entering directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51490.dir/feature_tests.cxx.o
+/u/suhubdyd/.local/bin/clang++-5.0    -std=c++98 -o CMakeFiles/cmTC_51490.dir/feature_tests.cxx.o -c /u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_51490
+/u/suhubdyd/.local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51490.dir/link.txt --verbose=1
+/u/suhubdyd/.local/bin/clang++-5.0       -rdynamic CMakeFiles/cmTC_51490.dir/feature_tests.cxx.o  -o cmTC_51490 
+make[1]: Leaving directory '/u/suhubdyd/research/projects/dist-hyperopt/ringbuffer/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
